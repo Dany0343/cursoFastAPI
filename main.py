@@ -6,4 +6,4 @@ app = FastAPI() # Esta variable va a contener a toda la aplicacion, se instancia
 @app.get("/") # Path Operation Decorator, va a decorar a una función que se creará posteriormente Este decordador está utilizando el método get que viene del objeto app que a su vez es una instancia de FastAPI
 
 def home(): # El primer lugar donde un usuario de la API va a aparecer cuando entre a la misma 
-    return {"Hello": "World"} # Se retorna un JSON
+    return {"Hello": "Worldd"} # Se retorna un JSON
